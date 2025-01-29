@@ -1,0 +1,79 @@
+.tab_left{
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 350px;
+    color: #B3B3B3;
+    font-family: var(--font-family);
+    display: grid;
+    gap: 20px;
+}
+
+.tab_left .library{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 20px 0px 5px;
+}
+
+.tab_left .library svg{
+    width: 64px;
+    height: 32px;
+}
+
+.tab_left .library h3{
+    margin-left: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.tab_left .library p{
+    font-size: 2rem;
+    text-align: right;
+    padding: 2px 8px;
+}
+
+.tab_left .library p:hover{
+    cursor: pointer;
+    color: white;
+    border-radius: 100%;
+    background-color: var(--bg-color-option);
+}
+
+.tab_left .playlist,
+.tab_left .podcast{
+    background-color: var(--bg-color-option);
+    border-radius: 15px;
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+}
+
+.tab_left .playlist h3,
+.tab_left .podcast h3{
+    font-weight: bold;
+    color: white;
+}
+
+.tab_left .playlist p,
+.tab_left .podcast p{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.tab_left .playlist a,
+.tab_left .podcast a{
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: fit-content;
+    font-weight: bold;
+    color: black;
+}
+
+.tab_left .playlist a:hover,
+.tab_left .podcast a:hover{
+    padding: 10px 17px;
+    opacity: 0.9;
+}
