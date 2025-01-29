@@ -1,0 +1,36 @@
+
+.footer {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    font-family: var(--font-family);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer strong {
+    font-weight: bold;
+    display: block;
+}
+
+.footer p {
+    line-height: 1.6; /* Melhorando a legibilidade */
+}
+
+.footer a {
+    background: white;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 17px 30px;
+    font-weight: bold;
+    color: black;
+    display: inline-block; /* Melhor controle do tamanho */
+    text-align: center;
+    transition: padding 0.2s ease, opacity 0.2s ease;
+}
+
+.footer a:hover {
+    padding: 17px 32px;
+    opacity: 0.8;
+}
