@@ -3,6 +3,7 @@
     border-radius: 10px;
     padding: 20px 10px;
     color: #B3B3B3;
+    width: 350px;
     font-family: var(--font-family);
     display: grid;
     gap: 20px;
@@ -21,7 +22,7 @@
 }
 
 .tab_left .library h3 {
-    margin-left: 15px;
+    margin-left: 5px;
     width: 100%;
     font-weight: bold;
 }
